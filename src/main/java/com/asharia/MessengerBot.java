@@ -78,7 +78,8 @@ public class MessengerBot {
 
 					log.info("Answer: {}", answer);
 					typingBot.write(answer);
-//					typingBot.pressEnter();
+					Thread.sleep(250);
+					typingBot.pressEnter();
 					break;
 				}
 				log.error("Waiting for the question...");
@@ -105,7 +106,8 @@ public class MessengerBot {
 					log.info("Next button found: {}", message);
 					log.info("Moving to the next question");
 					typingBot.write("Next");
-//					typingBot.pressEnter();
+					Thread.sleep(250);
+					typingBot.pressEnter();
 					break;
 				}
 				log.error("Looking for the next button...");
