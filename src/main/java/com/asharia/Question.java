@@ -8,6 +8,11 @@ public class Question {
 
 	}
 
+	public Question(String question, String answer) {
+		this.question = question;
+		this.answer = answer;
+	}
+
 	public String getQuestion() {
 		return question;
 	}
@@ -15,11 +20,6 @@ public class Question {
 	public Question setQuestion(String question) {
 		this.question = question;
 		return this;
-	}
-
-	public Question(String question, String answer) {
-		this.question = question;
-		this.answer = answer;
 	}
 
 	public String getAnswer() {

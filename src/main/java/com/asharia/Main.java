@@ -6,7 +6,6 @@ import org.slf4j.LoggerFactory;
 
 import java.awt.*;
 import java.io.IOException;
-import java.util.concurrent.CountDownLatch;
 
 public class Main {
 	private static final Logger log = LoggerFactory.getLogger(Main.class);

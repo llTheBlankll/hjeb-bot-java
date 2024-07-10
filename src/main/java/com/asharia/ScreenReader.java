@@ -41,7 +41,7 @@ public class ScreenReader {
 		return image;
 	}
 
-	private BufferedImage captureScreen(){
+	private BufferedImage captureScreen() {
 		// Calculate width and height from the coordinates
 		int width = Math.abs(x2 - x1);
 		int height = Math.abs(y2 - y1);
